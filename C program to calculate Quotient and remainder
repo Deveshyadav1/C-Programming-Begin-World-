@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int quotient,remaindr,devisor,devedent;
+    printf("\nEnter Devedent:");
+    scanf("%d",&devedent);
+    
+    printf("\nEnter Devisor:");
+    scanf("%d",&devisor);
+    
+    quotient = devedent / devisor;
+    remaindr = devedent % devisor;
+    
+    printf("\nQuotient = %d ",quotient);
+    printf("\nRemainder = %d",remaindr);
+    
+    return 0;
+    
+}
