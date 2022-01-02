@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    char ch;
+    printf("\nEnter A Character:");
+    scanf("\n%c",&ch);
+    
+    if((ch>'a' && ch<'z' || ch>'A' && ch<'Z'))
+
+     printf("\n %c is a character",ch);
+     else
+     printf("\n %c is not a character",ch);
+     return 0;
+}
