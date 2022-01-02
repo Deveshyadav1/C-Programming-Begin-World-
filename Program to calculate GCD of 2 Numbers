@@ -1,0 +1,23 @@
+#include<stdio.h>
+int gcd(int num1, int num2)
+{
+    int i,gcd;
+    for(i=1; i<=num1 && i<=num2; i++)
+    {
+        if(num1%2==0 && num2%2==0)
+        {
+            gcd=i;
+        }
+    } 
+
+    return gcd; 
+}
+
+int main()
+{
+    int a,b;
+    printf("\nEnter 2 Number:");
+    scanf("%d %d",&a,&b);
+    printf("Gcd of %d %d is %d",a,b,gcd(a,b));
+    return 0;
+}
