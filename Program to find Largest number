@@ -1,0 +1,32 @@
+#include<stdio.h>
+int findlarge(int a, int b, int c)
+{
+    if(a>b)
+    {
+        if(a>c)
+        {
+            printf("\n %d is greatest number",a);
+        }
+    }
+    else if(b>c)
+    {
+        printf("\n %d is greatest number",b);
+    }
+    else
+    {
+        printf("\n%d is greatest number",c);
+    }
+    
+    
+}
+int main()
+{
+    int num1,num2,num3;
+    printf("\nEnter 3 Number :");
+    scanf("\n%d  \n%d  \n%d",&num1,&num2,&num3);
+    
+    findlarge(num1,num2,num3);
+    return 0;
+
+}
+
