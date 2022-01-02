@@ -1,0 +1,15 @@
+// C program IO oprations
+
+#include<stdio.h>
+int main()
+{
+    int a;
+    //take input
+    printf("\nEnter Your value :");
+    scanf("%d",&a);
+    
+    //print output
+    printf("\nValue of a = %d ",a);
+    return 0;
+}
+
