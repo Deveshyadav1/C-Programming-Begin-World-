@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int first, second, temp;
+    
+    printf("\nEnter First Number: ");
+    scanf("%d",&first);
+    
+    printf("\nEnter second number: ");
+    scanf("%d",&second);
+    
+    temp=second;
+    second=first;
+    first=temp;
+    
+    printf("\nFirst variable  : %d",first);
+    printf("\nsecond variable : %d",second);
+    return 0;
+}
