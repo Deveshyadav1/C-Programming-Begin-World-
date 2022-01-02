@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int num,i=1,sum=0;
+    printf("\nEnter Range :");
+    scanf("%d",&num);
+    while(num>=sum)
+    {
+        sum+=i;
+        printf("\n[%d]:%d",i+1,i);
+        i++;
+    }
+    printf("\nSum = %d",sum);
+    return 0;
+}
