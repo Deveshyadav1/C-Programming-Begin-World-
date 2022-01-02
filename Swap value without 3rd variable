@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("\nEnter First Number :");
+    scanf("%d",&a);
+    printf("\nEnter secodn Number :");
+    scanf("%d",&b);
+    
+    a=a-b;
+    b=a+b;
+    a=b-a;
+    
+    printf("\nFirst = %d",a);
+    printf("\nsecond = %d",b);
+
+    return 0;
+}
