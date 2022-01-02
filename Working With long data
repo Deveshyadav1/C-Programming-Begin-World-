@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    long a=1000000000000000000;
+    printf("\nValue of Long Variable a = %li",a);
+
+    return 0;
+}
+
