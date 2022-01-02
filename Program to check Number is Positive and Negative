@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<ctype.h>
+int main()
+{
+    int num;
+    printf("\nEnter Your number");
+    scanf("%d",&num);
+    if((isalpha(num)))
+    //if((num > 'a' && num < 'z' || num > 'A' && num < 'Z'))
+    {
+        printf("\n Sorry This is a character !");
+    }
+    else
+    {
+    if((num > 0 || num == 0 ))
+    {
+     printf("\n %d : is a Positive number",num);    
+    }
+    else
+    {
+      printf("\n %d is a Negative number",num);    
+    }
+    }
+    return 0;
+    
+    
+    
+}
