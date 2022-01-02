@@ -1,0 +1,11 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int a=10;
+    printf("\nValue of Variable = %d",a);
+
+    return 0;
+}
+
