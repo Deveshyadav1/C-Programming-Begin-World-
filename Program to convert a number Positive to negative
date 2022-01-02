@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("\nEnter a number:");
+    scanf("%d",&n);
+    
+    n = (n<0)? n : -n;
+    
+    printf("\n Value is %d",n);
+    return 0;
+}
